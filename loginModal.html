@@ -61,8 +61,24 @@
             cursor: pointer;   
         }
 
-        .btn:hover {
+        .btn:hover, .cancelBtn:hover{
             background-color: rgba(0, 70, 42, 0.5);
+        }
+
+        .cancelArea {
+            width: 100%;
+            margin: auto;
+            margin-bottom: 15px;
+        }
+
+        .cancelBtn {
+            border: 1px solid rgb(0, 70, 42);
+            border-radius: 5px;
+            float: right;
+            font-size: 20px;
+            color: rgb(0, 70, 42);
+            background-color: transparent;
+            cursor: pointer; 
         }
 
     </style>
@@ -73,6 +89,9 @@
     github 연동
     
     <div class="ModalArea">
+        <div class="cancelArea">
+            <button class="cancelBtn">x</button>
+        </div>
         <div class="inputArea">
             <div>
                 <input class="loginInput" id="id" type="text" placeholder="아이디 입력">
