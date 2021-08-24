@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <!-- JQuery -->
+    <script src="http://code.jquery.com/jquery-latest.min.js"></script>
+    <!-- java script -->
+    <script type="text/javascript" src="#"></script>
+
+    <!-- CSS -->
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: rgba(0, 70, 42, 0.9);
+        }
+
+        .ModalArea {
+            background-color: #fff;
+            border: 1px solid rgb(0, 70, 42);
+            margin: auto;
+            margin-top: 15%;
+            width: 25%;
+            height: 250px;
+            padding: 20px 20px;
+            border-radius: 20px;
+            box-shadow: 1px 1px 5px rgb(0, 70, 42);
+
+        }
+
+        .inputArea {
+            width: 80%;
+            margin: auto;
+        }
+
+        .loginInput {
+            border: none;
+            border-bottom: 1px solid rgb(0, 70, 42);
+            width: 100%;
+            height: 30px;
+            margin-top: 20px;
+        }
+
+        .btnArea {
+            width: 80%;
+            margin: auto;
+            margin-top: 30px;
+        }
+
+        .btn {
+            border: 1px solid rgb(0, 70, 42);
+            border-radius: 5px;
+            width: 100%;
+            height: 30px;
+            margin-top: 10px;
+            font-size: 15px;
+            font-weight: bold;
+            color: rgb(0, 70, 42);
+            background-color: transparent;
+            cursor: pointer;   
+        }
+
+        .btn:hover {
+            background-color: rgba(0, 70, 42, 0.5);
+        }
+
+    </style>
+
+
+</head>
+<body>
+    github 연동
+    
+    <div class="ModalArea">
+        <div class="inputArea">
+            <div>
+                <input class="loginInput" id="id" type="text" placeholder="아이디 입력">
+            </div>
+            <div>
+                <input class="loginInput" id="pw" type="text" placeholder="비밀번호 입력">
+            </div>
+        </div>
+        <div class="btnArea">
+            <div><button class="btn" id="login">로그인</button></div>
+            <div><button class="btn" id="regBtn">회원가입</button></div>
+        </div>
+    </div>
+
+
+
+</body>
+</html>
