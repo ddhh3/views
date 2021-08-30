@@ -1,0 +1,85 @@
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.wholeArea {
+    background-color: rgba(255, 255, 0, 0.5);
+    border: 1px solid gray;
+    margin: auto;
+    margin-top: 5%;
+    min-width: 1000px;
+    width: 50%;
+    padding: 20px 20px;
+    border-radius: 20px;
+}
+
+.labelArea {
+    width: 60%;
+    margin: auto;
+    margin-top: 30px;
+    text-align: center;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+}
+
+.inputArea {
+    width: 60%;
+    margin: auto;
+    margin-top: 30px;
+    display: flex;
+}
+
+.inputs {
+    width: 100%;
+    text-align: center;
+}
+
+#inputData{
+    border: 1px solid gray;
+    border-radius: 5px;
+    width: 500px;
+    height: 25px;
+}
+
+.btn {
+    border: 1px solid gray;
+    border-radius: 5px;
+    width: 60px;
+    height: 30px;
+    font-size: 15px;
+    font-weight: bold;
+    color: black;
+    background-color: yellow;
+    cursor: pointer;  
+}
+
+.listArea {
+    width: 70%;
+    margin: auto;
+    margin-top: 30px;
+    display: flex;
+
+}
+
+table {
+    width: 100%;
+}
+
+td {
+    align-items: center;
+    padding: 10px 0px;
+}
+
+.todo {
+    width: 90%;
+    height: 25px;
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+
+.checkBox {
+    width: 20px;
+    height: 20px;
+}
